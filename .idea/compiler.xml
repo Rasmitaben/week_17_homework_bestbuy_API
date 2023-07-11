@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bestbuy-restassured-project_week_17" />
+        <module name="week_17_homework_bestbuy_API" />
       </profile>
     </annotationProcessing>
   </component>
