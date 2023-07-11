@@ -92,6 +92,8 @@ public class ProductsCRUDTest extends TestBase {
                 .delete("/products" + "/" + productId);
         response.prettyPrint();
         response.then().log().all().statusCode(200);
+
+
     }
 
 }

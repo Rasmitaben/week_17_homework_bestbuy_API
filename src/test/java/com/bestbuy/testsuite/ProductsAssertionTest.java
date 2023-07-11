@@ -82,4 +82,10 @@ public class ProductsAssertionTest {
         //response.body("data[9].categories",equalTo(5));
         response.body("data.find { it.id == 346575 }.categories", hasSize(5));
     }
+    @Test
+    // extra added when I was doing practice for create a new branch and pull request.
+    public void test021(){
+        //response.body("data[9].categories",equalTo(5));
+        response.body("data.find { it.id == 346575 }.categories", hasSize(5));
+    }
 }
